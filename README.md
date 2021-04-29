@@ -8,7 +8,7 @@ You need Python, then run this:
 then, if you want to have it in path, run this:
 ```sudo mv calc /usr/local/bin/```.
 
-# how to use
+# How to use
 
 For a simple calculation, you can run it like `calc 2+2`.
 If you need an external python library like `math`, add it as an argument like `calc "math.sin(90)" math` (note the quotes. This is to stop the shell breaking things.).
