@@ -1,3 +1,8 @@
 #!/bin/bash
-echo "print($1)" > ~/.cache/tempcalc.py
+rm ~/.cache/tempcalc.py
+if [ "$2" != "" ]
+then
+	echo "import $2" > ~/.cache/tempcalc.py
+fi
+echo "print($1)" >> ~/.cache/tempcalc.py
 python ~/.cache/tempcalc.py
