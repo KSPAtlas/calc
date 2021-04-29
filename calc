@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "print($1)" > ~/.cache/tempcalc.py
+python ~/.cache/tempcalc.py
